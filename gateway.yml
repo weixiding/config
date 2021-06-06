@@ -1,0 +1,6 @@
+server:
+  port: 9099
+zuul:
+  routes:
+    product: /myproduct/**
+    order: /thisorder/**
